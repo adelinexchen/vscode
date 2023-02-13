@@ -363,12 +363,12 @@ export default class MDBExtensionController implements vscode.Disposable {
             <meta charset="utf-8" />
             <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
           </head>
-          <body>
+          <body style="background-color:#041c2c;">
           <div>
-            <h1> MongoDB Streams </h1>
+            <h1> MongoDB Streams <i style='color: #00EC64', class="fa-sharp fa-solid fa-leaf" ></i>  </h1>
 
             <script src="https://unpkg.com/mermaid@8.0.0/dist/mermaid.min.js"></script>
-              <div>
+              <div style="background-color:#21ed62; border-radius: 12px;">
                 <div class="mermaid">
                   ${content}
                 </div>
